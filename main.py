@@ -17,7 +17,6 @@ from langchain.tools import Tool
 
 def get_weather(location: str) -> str:
     """Return weather information for the given location."""
-    # In a real implementation you would call an API. Here we return a placeholder.
     return f"The weather in {location} is sunny with 25°C."
 
 weather_tool = Tool(
